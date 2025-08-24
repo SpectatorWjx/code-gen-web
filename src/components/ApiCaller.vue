@@ -20,7 +20,7 @@ const { inputValue, responseData, isLoading, errorMessage, callApi } = setupApiC
         id="inputField"
         v-model="inputValue"
         type="text"
-        placeholder="请输入要发送的内容"
+        placeholder="请输入要发送的内容1"
         :disabled="isLoading"
       >
     </div>
